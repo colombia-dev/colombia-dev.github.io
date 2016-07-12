@@ -12,7 +12,7 @@ cuenta:
 por lo que es necesario que al agregar un nuevo meetup sigas el siguiente 
 formato:
 
-```
+```html
 <li><a href="http://www.meetup.com/BogotaJS/" target="_blank">BogotaJS</a></li>
 ```
 
@@ -24,7 +24,7 @@ después del slash.
 
 2. Si el meetup cuenta con página aparte y meetup, puedes usar este formato:
 
-```
+```html
 <li><a href="http://medellinjs.org" data-meetup-id="MedellinJS" target="_blank">MedellínJS</a></li>
 ```
 
