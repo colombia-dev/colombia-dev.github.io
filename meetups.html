@@ -10,6 +10,7 @@
 <body>
     <div class="row">
         <h1 class="text-center">Meetups Locales Por Ciudad</h1>
+        <p id="total-wrapper" class="text-center hide">Total miembros en Meetup: <strong id="total"></strong></p>
 
         <section class="small-12">
             <h3>Bogotá</h3>
@@ -23,13 +24,13 @@
                 <li><a href="http://www.meetup.com/Drupal-Colombia/" target="_blank">Drupal Colombia</a></li>
                 <li><a href="http://www.meetup.com/Django-Bogota/" target="_blank">Django Bogotá</a></li>
                 <li><a href="http://www.meetup.com/bogodev/" target="_blank">BogoDev</a></li>
-                <li><a href="http://www.meetup.com/es-ES/Big-Data-Science-Bogota/" target="_blank">Big-Data Science Bogota</a></li>
+                <li><a href="http://www.meetup.com/Big-Data-Science-Bogota/" target="_blank">Big-Data Science Bogota</a></li>
                 <li><a href="http://www.meetup.com/Bogota-Lambda/" target="_blank">Bogotá Lambda</a></li>
                 <li><a href="http://www.meetup.com/ioscolombia/" target="_blank">iOS Colombia</a></li>
                 <li><a href="http://www.meetup.com/IoT-Colombia/" target="_blank">IoT Colombia</a></li>
                 <li><a href="http://www.meetup.com/Android-Meetup-Bogota/" target="_blank">Android Bogotá</a></li>
                 <li><a href="http://www.meetup.com/Game-Developers-Colombia/" target="_blank">Game Developers Colombia</a></li>
-                <li><a href="http://www.meetup.com/es-ES/Docker-Bogota/" target="_blank">Docker Bogotá</a></li>
+                <li><a href="http://www.meetup.com/Docker-Bogota/" target="_blank">Docker Bogotá</a></li>
                 <li><a href="http://www.meetup.com/BogotaCSS/" target="_blank">BogotaCSS</a></li>
                 <li><a href="http://www.meetup.com/Meteor-Colombia/" target="_blank">Meteor Colombia</a></li>
                 <li><a href="http://www.meetup.com/delphi-bogota/" target="_blank">Delphi Bogotá</a></li>
@@ -37,7 +38,7 @@
                 <li><a href="http://www.meetup.com/cppcolombia/" target="_blank">C++ Colombia</a></li>
                 <li><a href="http://www.meetup.com/Joomla-Bogota-Meetup/" target="_blank">Joomla Bogotá</a></li>
                 <li><a href="http://www.meetup.com/Bogota-Java-EE-Meetup/" target="_blank">Bogotá Java EE</a></li>
-                <li><a href="http://www.meetup.com/es-ES/AngularJS-Colombia/" target="_blank">AngularJS Colombia</a></li>
+                <li><a href="http://www.meetup.com/AngularJS-Colombia/" target="_blank">AngularJS Colombia</a></li>
                 <li><a href="http://www.meetup.com/Bogota-JVM-Meetup/" target="_blank">Bogotá JVM</a></li>
                 <li><a href="http://www.meetup.com/gdgbogota/" target="_blank">GDG Bogotá</a></li>
             </ul>
@@ -46,7 +47,7 @@
             <h3>Medellín</h3>
             <ul>
                 <li><a href="http://www.meetup.com/Golang-Medellin" target="_blank">Golang Medellín</a></li>
-                <li><a href="http://medellinjs.org" target="_blank">MedellínJS</a></li>
+                <li><a href="http://medellinjs.org" data-meetup-id="MedellinJS" target="_blank">MedellínJS</a></li>
                 <li><a href="http://www.meetup.com/MongoDB-Medellin" target="_blank">MongoDB Medellín</a></li>
                 <li><a href="http://www.meetup.com/ScalaMDE" target="_blank">ScalaMDE</a></li>
                 <li><a href="http://www.meetup.com/medellin-devops/" target="_blank">Medellín DevOps</a></li>
@@ -120,10 +121,12 @@
             <h3>Armenia</h3>
             <ul>
                 <li><a href="http://www.meetup.com/Quindio-Tech/" target="_blank">Quindio Tech</a></li>
-                <li><a href="http://www.meetup.com/es-ES/Armenia-Quindio-Meetup-About-IT-and-Networking/" target="_blank">Armenia Quindio Meetup About IT and Networking</a></li>
+                <li><a href="http://www.meetup.com/Armenia-Quindio-Meetup-About-IT-and-Networking/" target="_blank">Armenia Quindio Meetup About IT and Networking</a></li>
             </ul>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
+    <script src="public/assets/scripts/meetupsCounter.js"></script>
 </body>
 
 </html>
