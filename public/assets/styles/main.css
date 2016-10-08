@@ -1,0 +1,12 @@
+#logo {
+  background: #fff url('../images/condor-logo.svg') 50% 50% no-repeat;
+  height: 60vh;
+  text-indent: -9999em;
+  display: block;
+}
+
+
+form button.button {
+  background: rgb(61,156,190);
+  color: white;
+}
